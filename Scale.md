@@ -1,6 +1,3 @@
-
-How much data we'll have.
-
 # Customers
 
 - 40 millions
@@ -8,7 +5,7 @@ How much data we'll have.
 
 # Test Result
 
-![[daily-tests-per-thousand-people-smoothed-7-day.png]]
+![daily-tests-per-thousand-people-smoothed-7-day](./images/daily-tests-per-thousand-people-smoothed-7-day.png)
 
 During the peak of pandemics the best performing countries were carrying out 30 tests per 1000 people.
 

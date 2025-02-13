@@ -1,1 +1,1 @@
-![[notification-service-c2.png]]
+![notification-service-c2.png](../images/notification-service-c2.png)

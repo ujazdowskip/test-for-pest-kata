@@ -1,5 +1,0 @@
-- **System** - disease test management system that is being designed
-- **Customer** - a person that want's to test themselves for a disease
-- **Government** - main stakeholder and the requester on architected system
-- **Test Coordinator** - a unit that manages some area and goups Test Operators
-- **Test Operator** - a person that is carrying out a test and is assigned to particular Test Coordinator

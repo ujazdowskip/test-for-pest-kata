@@ -1,7 +1,7 @@
 Architectural Kata for the following
 https://www.architecturalkatas.com/kata.html?kata=TestPest.json
 
-⚠️ This is very much WIP
+🚧 This is very much WIP
 
 # Test for Pest
 
@@ -31,9 +31,8 @@ Kata description
 > - The system will potentially be exported to other countries.
 > - You have a contract with the government so money is not important.
 
-https://excalidraw.com/#room=4cbb12329f3a7430f3fe,T1cLUd5qMCsXG2KAVi30Gw
 
-[[Scale]] - some calculations regarding the scale.
+[Scale](Scale.md) - some calculations regarding the scale.
 
 ## Strategic goals
 
@@ -41,21 +40,22 @@ Polish government is aware that prevention is the most important for improving p
 - encourage as many people as possible to test themselves
 - gather disease statistics to react accordingly
 - in the events of disease outbreaks test as many people as possible
+ 
 ## Event storming
 
 In order to discover system's details we carried out event storming session.
 
-[[Event Storming]]
+[Event Storming](./Event%20Storming.md)
 
 ## Architecture characteristics
 
 After analysing requirements and outcomes from event storming session the system characteristics were defined.
 
-[[Characteristics]]
+[Characteristics](./Characteristics.md)
 
 ## Designing architecture
 
-After that we proceeded to defining the [[Architecture details]].
+After that we proceeded to defining the [Architecture details](./Architecture/Architecture%20details.md).
 
 
 

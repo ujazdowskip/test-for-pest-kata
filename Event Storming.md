@@ -7,7 +7,9 @@ Main goal of this session was to find out more details about the business proces
 
 Event storming board
 
-![[test-pest-event-storming.png]]
+https://excalidraw.com/#room=4cbb12329f3a7430f3fe,T1cLUd5qMCsXG2KAVi30Gw
+
+![Event storming board](./images/test-pest-event-storming.png)
 
 ## Actors
 
