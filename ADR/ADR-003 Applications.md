@@ -1,8 +1,8 @@
-## Context
+# Context
 
 The stakeholders strategic goal is to create easy to use system that encourages people to test themselves. We need to support a way that is known to many people and is easy to use.
 
-## Decision
+# Decision
 
 We will use web technologies to give all the actors access. Native mobile applications will not be used.
 - modern devices and web technologies are mature enough to create what we need
