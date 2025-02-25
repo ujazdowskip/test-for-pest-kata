@@ -6,9 +6,9 @@ The high level idea is that the system is divided into two layers:
 - Tier 1 - all users' facing applications
 - Tier 2 - all the services that actually implement domain specific logic
 
-This approach is visualised on the C1 diagram.
+High level architecture diagram:
 
-![test-pest-c1.png](../images/test-pest-c1.png)
+![test-pest-layers.png](../images/test-pest-layers.png)
 
 ## Tier 1
 
