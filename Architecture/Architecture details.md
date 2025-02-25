@@ -58,6 +58,8 @@ We need to support two types of communication patters:
 1. North-South - inbound to our system
 2. East-West - between components in our system
 
+![service mesh](../images/test-pest-service-mesh.png)
+
 ### North-South
 
 Inbound communication will be handled by Istio Gateway - see [ADR-003 North-South traffic management](../ADR/ADR-003%20North-South%20traffic%20management.md).
