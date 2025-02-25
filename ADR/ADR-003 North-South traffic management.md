@@ -10,6 +10,10 @@ We need API gateway that will provide:
 
 We will use istio Gateway for controlling our North-South traffic.
 
+- non secured request will be passed to the system
+- secured request will be authenticated against our auth server
+  - using JWT tokens
+
 ## Alternative
 
 Use kubernetes Gateway API specification for provisioning cloud provider specific gateway.

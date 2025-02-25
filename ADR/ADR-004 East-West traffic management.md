@@ -11,7 +11,8 @@ Additionally, we need to ensure that services can be easily discovered.
 
 # Decision
 
-We will use istio to create a reliable and secure service mesh.
+1. We will use Istio to create a reliable and secure service mesh.
+2. We will use Istio in sidecar mode
 
 Security:
 - Istio can provide Mutual TLS (mTLS) between services. We will use this to implement Zero Trust approach.
