@@ -20,13 +20,7 @@ We will expose functionalities via web applications. Each will consist of:
 	 - fetches and glues data from Tier 2 services
 	 - sends commands to Tier 2 services
 
-Components defined as Tier 1:
-- [Customer system](./Customer%20system.md)
-- [Test Operator system](./Test%20Operator%20system.md)
-- [Backoffice system](./Backoffice%20system.md)
-- Doctors system
-
-Additionally
+Additional considerations:
 - all frontend applications will use our Auth server for authentication
 	- [ADR-005 Auth server](../ADR/ADR-005%20Auth%20server.md)
 - all frontend backends will communicate with their backend using REST over HTTP
@@ -40,13 +34,6 @@ In general, we need to support those communication patterns:
 - network calls between Tier 1 and 2
 - network calls between Tier 2
 - sending messages to message broker
-
-We defined the following components as Tier 2 services:
-- [Customer service](./Customer%20service.md)
-- [Appointment service](./Appointment%20service.md)
-- [Test Result service](./Test%20Result%20service.md)
-- System service
-- [Notifications service](./Notifications%20service.md)
 
 # Platform
 
@@ -90,7 +77,23 @@ For that we will use:
   - if data is needed it should be exposed via public API
 - we will use PostgreSQL as our database - see [ADR-012 Database](../ADR/ADR-012%20Database.md)
 
+# Components
 
+## Tier 1
+
+- [Customer system](./Customer%20system.md)
+- [Test Operator system](./Test%20Operator%20system.md)
+- [Backoffice system](./Backoffice%20system.md)
+- Doctors system
+
+## Tier 2
+
+We defined the following components as Tier 2 services:
+- [Customer service](./Customer%20service.md)
+- [Appointment service](./Appointment%20service.md)
+- [Test Result service](./Test%20Result%20service.md)
+- System service
+- [Notifications service](./Notifications%20service.md)
 
 
 
