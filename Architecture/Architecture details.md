@@ -82,18 +82,52 @@ For that we will use:
 ## Tier 1
 
 - [Customer system](./Customer%20system.md)
+  - customer facing web application 
 - [Test Operator system](./Test%20Operator%20system.md)
+  - test operator facing web application 
 - [Backoffice system](./Backoffice%20system.md)
+  - application for managing the system
+  - will be used by System Operators and Test Coordinators
 - Doctors system
+  - will be used by doctors to access customer test history 
 
 ## Tier 2
 
 We defined the following components as Tier 2 services:
 - [Customer service](./Customer%20service.md)
+  - main functionality is to store customer data 
+  - we need to support CRUD operations
+  - reading will need to be optimised for couple of use cases
+    - by email
+    - by id
+    - by name
+    - by phone number
+    - by Identification Number (e.g. PESEL)
 - [Appointment service](./Appointment%20service.md)
+  - CRUD for appointments
+  - reading must be optimized by couple of use cases
+	- by Customer
+	- by date (for loading calendar)
+    - by Test Operator
 - [Test Result service](./Test%20Result%20service.md)
+  - CRUD for test results
+  - reading must be optimized by couple of use cases
+    - by Test id
+    - by Customer
+  - sending notifications
+  - pushing test result further
+    - BI system
+    - Doctors' service (or Test history service)
 - System service
+  - CRUD for system configuration
+    - Disease Test
+    - Test Operator
+    - Test Coordinators
 - [Notifications service](./Notifications%20service.md)
+  - subscribing to messages and sending notifications
+    - via email gateway
+    - via SMS gateway
+  - CRUD for notifications templates
 
 
 
