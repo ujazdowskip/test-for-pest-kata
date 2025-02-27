@@ -70,6 +70,12 @@ For that we will use:
 - S3 compliant storage - see [ADR-008 Object Storage](../ADR/ADR-008%20Object%20Storage.md)
 - nginx to serve static content - see [ADR-010 Static content](../ADR/ADR-010%20Static%20content.md)
 
+## Observability
+
+For observability we will Grafana stack - see [ADR-009 Observability](../ADR/ADR-009%20Observability.md)
+
+![observability](../images/test-pest-observability.png)
+
 ## Database
 
 - each microservice will have its own database
@@ -78,6 +84,10 @@ For that we will use:
 - we will use PostgreSQL as our database - see [ADR-012 Database](../ADR/ADR-012%20Database.md)
 
 # Components
+
+High level overview of components
+
+![test-pest-components.png](../images/test-pest-components.png)
 
 ## Tier 1
 
